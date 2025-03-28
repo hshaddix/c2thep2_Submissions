@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/include/AthenaPoolExampleData"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/include/AthenaPoolExampleData.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthenaPoolExampleData"
+		],
+		"name" : "AthenaPoolExampleDataHeaderInstall"
+	}
+}

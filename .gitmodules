@@ -1,0 +1,3 @@
+[submodule "HW3/HW3/day2/athena"]
+	path = HW3/HW3/day2/athena
+	url = https://gitlab.cern.ch/atlas/athena.git

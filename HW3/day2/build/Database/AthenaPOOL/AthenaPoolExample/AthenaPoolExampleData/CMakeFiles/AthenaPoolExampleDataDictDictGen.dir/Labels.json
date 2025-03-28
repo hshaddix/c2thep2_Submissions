@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/AthenaPoolExampleDataDictDictGen"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/AthenaPoolExampleDataDictDictGen.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/AthenaPoolExampleDataDict.dsomap.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/AthenaPoolExampleDataDict.h.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/selection.xml.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/AthenaPoolExampleDataDict.stamp.txt.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthenaPoolExampleData"
+		],
+		"name" : "AthenaPoolExampleDataDictDictGen"
+	}
+}

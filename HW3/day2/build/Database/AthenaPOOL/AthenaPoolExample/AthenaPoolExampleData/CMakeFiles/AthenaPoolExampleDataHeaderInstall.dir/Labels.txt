@@ -1,0 +1,5 @@
+# Target labels
+ AthenaPoolExampleData
+# Source files and their labels
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/include/AthenaPoolExampleData
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/include/AthenaPoolExampleData.rule

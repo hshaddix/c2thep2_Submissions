@@ -1,0 +1,145 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExampleConfig.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_Concat.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_Copy.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_Read.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadAgain.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadCond.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadMeta.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadWrite.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadWriteNext.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadxAODElectrons.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_Write.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_WriteCond.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_WriteMeta.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_WritexAODElectrons.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/CMakeFiles/AthenaPoolExampleAlgorithmsPythonInstallPostBuild.stamp"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExampleConfig.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_Concat.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_Copy.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_Read.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_ReadAgain.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_ReadCond.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_ReadMeta.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_ReadWrite.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_ReadWriteNext.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_ReadxAODElectrons.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_Write.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_WriteCond.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_WriteMeta.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_WritexAODElectrons.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExampleConfig.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_Concat.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_Copy.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_Read.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadAgain.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadCond.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadMeta.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadWrite.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadWriteNext.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadxAODElectrons.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_Write.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_WriteCond.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_WriteMeta.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_WritexAODElectrons.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/CMakeFiles/AthenaPoolExampleAlgorithmsPythonInstallPostBuild.stamp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthenaPoolExampleAlgorithms"
+		],
+		"name" : "AthenaPoolExampleAlgorithmsPythonInstall"
+	}
+}

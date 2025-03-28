@@ -1,0 +1,11 @@
+[release_metadata]
+release:25.0.28
+nightly name:main
+project name:WorkDir
+nightly release:c563d006f13
+date:2025-03-28T1502
+compiler:GNU-13.1.0
+cuda:-
+cxxpath:/cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/bin/g++
+cudapath:NOTFOUND
+cmake:3.29.5

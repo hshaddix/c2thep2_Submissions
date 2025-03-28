@@ -1,0 +1,60 @@
+{ decls }
+namespace std {  }
+class ExampleHitContainer;
+template <typename STORABLE> class DataLink;
+namespace SG {  }
+template <typename STORABLE> class ElementLink;
+namespace SG { template <typename T, typename ALLOC> class AuxTypeVectorFactoryImpl; }
+namespace SG { template <typename T, typename ALLOC> class AuxTypeVectorFactory; }
+class ExampleHit;
+namespace DataModel_detail { class NoBase; }
+template <typename T, typename BASE> class DataVector;
+class ExampleTrack;
+namespace xAOD { class ExampleElectron_v1; }
+template <typename DOBJ> class ElementLinkVector;
+namespace SG { template <typename DOBJ> class ELVRef; }
+template <typename CONT, typename RPAR, typename COLL> class Navigable;
+namespace xAOD {  }
+
+[ libAthenaPoolExampleDataDict.so ]
+# List of selected classes
+class DataLink<ExampleHitContainer>
+class DataVector<ExampleHit,DataModel_detail::NoBase>
+class DataVector<ExampleHit>
+class DataVector<ExampleTrack,DataModel_detail::NoBase>
+class DataVector<ExampleTrack>
+class DataVector<xAOD::ExampleElectron_v1,DataModel_detail::NoBase>
+class DataVector<xAOD::ExampleElectron_v1>
+class ElementLink<ExampleHitContainer>
+class ElementLinkVector<ExampleHitContainer>
+class ExampleHit
+class ExampleHitContainer
+class ExampleTrack
+class ExampleTrackContainer
+class Navigable<ExampleHitContainer,double,std::vector<std::pair<ElementLink<ExampleHitContainer>,double> > >
+class Navigable<ExampleHitContainer,double,vector<pair<ElementLink<ExampleHitContainer>,double> > >
+class SG::AuxTypeVectorFactory<ElementLink<ExampleHitContainer> >
+class SG::AuxTypeVectorFactory<ElementLink<ExampleHitContainer>,allocator<ElementLink<ExampleHitContainer> > >
+class SG::AuxTypeVectorFactoryImpl<ElementLink<ExampleHitContainer> >
+class SG::AuxTypeVectorFactoryImpl<ElementLink<ExampleHitContainer>,allocator<ElementLink<ExampleHitContainer> > >
+class SG::ELVRef<ExampleHitContainer>
+class pair<ElementLink<ExampleHitContainer>,double>
+class vector<DataLink<ExampleHitContainer> >
+class vector<ExampleHit*>
+class vector<ExampleTrack*>
+class vector<SG::ELVRef<ExampleHitContainer> >
+class vector<pair<ElementLink<ExampleHitContainer>,double> >
+class vector<std::pair<ElementLink<ExampleHitContainer>,double> >
+class xAOD::ExampleElectronAuxContainer_v1
+class xAOD::ExampleElectronContainer_v1
+class xAOD::ExampleElectron_v1
+header AthenaPoolExampleData/ExampleHit.h
+header AthenaPoolExampleData/ExampleHitContainer.h
+header AthenaPoolExampleData/ExampleTrack.h
+header AthenaPoolExampleData/ExampleTrackContainer.h
+header AthenaPoolExampleData/versions/ExampleElectronAuxContainer_v1.h
+header AthenaPoolExampleData/versions/ExampleElectron_v1.h
+# List of selected typedefs and outer classes
+typedef xAOD::ExampleElectron
+typedef xAOD::ExampleElectronContainer
+typedef xAOD::ExampleElectronAuxContainer

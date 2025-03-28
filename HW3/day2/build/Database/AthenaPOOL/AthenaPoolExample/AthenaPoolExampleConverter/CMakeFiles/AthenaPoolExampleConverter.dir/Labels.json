@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/src/ExampleData.cxx"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/src/ExampleHitContainerCnv.cxx"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/src/ExampleTrackContainerCnv.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthenaPoolExampleConverter"
+		],
+		"name" : "AthenaPoolExampleConverter"
+	}
+}

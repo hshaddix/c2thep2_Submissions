@@ -1,0 +1,97 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_Write.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadWrite.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_Read.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_Copy.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadWriteNext.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_WritexAODElectrons.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadxAODElectrons.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadAgain.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_Concat.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadConcat.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_WriteCond.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadCond.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_WriteMeta.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadMeta.exe"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_Write.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadWrite.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_Read.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_Copy.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadWriteNext.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_WritexAODElectrons.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadxAODElectrons.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadAgain.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_Concat.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadConcat.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_WriteCond.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadCond.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_WriteMeta.exe.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/test-bin/AthenaPoolExample_ReadMeta.exe.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthenaPoolExampleAlgorithms"
+		],
+		"name" : "AthenaPoolExampleAlgorithmsTestScriptInstall"
+	}
+}

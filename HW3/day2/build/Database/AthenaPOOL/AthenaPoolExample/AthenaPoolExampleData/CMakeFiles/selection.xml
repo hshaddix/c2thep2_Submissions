@@ -1,0 +1,44 @@
+<lcgdict>
+   <class name="ExampleHitContainer" id="12BD9F58-4A0A-4DD6-89E3-15DB01180BD9"/>
+   <class name="ExampleHit"/>
+   <class name="DataVector<ExampleHit>"/>
+   <class name="std::vector<ExampleHit*>"/>
+   <class name="ExampleTrackContainer" id="1390A48F-C87C-4382-B772-2DA5B055FBC6"/>
+   <class name="ExampleTrack"/>
+   <class name="DataVector<ExampleTrack>"/>
+   <class name="std::vector<ExampleTrack*>"/>
+   <class name="xAOD::ExampleElectron_v1" id="9ED519B3-7CC8-4AE6-B2E8-F2B84029576B"/>
+   <typedef name="xAOD::ExampleElectron" /> 
+   <class name="xAOD::ExampleElectronContainer_v1" id="4508E3FC-03A7-4770-BF41-71431F86050C"/>
+   <typedef name="xAOD::ExampleElectronContainer" /> 
+   <class name="xAOD::ExampleElectronAuxContainer_v1" id="A57CD90B-B697-4067-93C7-28252B1FF9D5"/>
+   <typedef name="xAOD::ExampleElectronAuxContainer" /> 
+<!-- Copyright (C) 2002-2017 CERN for the benefit of the ATLAS collaboration -->
+<!-- Create the DataLink<ExampleHitContainer> dictionary: -->
+<class name="DataLink<ExampleHitContainer>" />
+<!-- Copyright (C) 2002-2017 CERN for the benefit of the ATLAS collaboration -->
+<!-- Create the ElementLink<ExampleHitContainer> dictionaries: -->
+<class name="ElementLink<ExampleHitContainer>" />
+<class name="SG::AuxTypeVectorFactory<ElementLink<ExampleHitContainer> >" />
+<class name="SG::AuxTypeVectorFactoryImpl<ElementLink<ExampleHitContainer> >" />
+<!-- Copyright (C) 2002-2017 CERN for the benefit of the ATLAS collaboration -->
+<!-- Create the ElementLinkVector<ExampleHitContainer> dictionaries: -->
+<class name="ElementLinkVector<ExampleHitContainer>" />
+<exclusion>
+  <class name="ElementLinkVector<ExampleHitContainer>" >
+    <!-- The signatures for these are too big for the dictionary generator: -->
+    <method name="insert" />
+    <method name="erase" />
+  </class>
+</exclusion>
+<class name="std::vector<SG::ELVRef<ExampleHitContainer> >" />
+<class name="SG::ELVRef<ExampleHitContainer>" >
+  <field name="m_link" transient="true" />
+</class>
+<class name="std::vector<DataLink<ExampleHitContainer> >" />
+<!-- Copyright (C) 2002-2017 CERN for the benefit of the ATLAS collaboration -->
+<!-- Create the Navigable<ExampleHitContainer> dictionaries: -->
+<class name="Navigable<ExampleHitContainer,double,std::vector<std::pair<ElementLink<ExampleHitContainer>,double> > >" />
+<class name="std::pair<ElementLink<ExampleHitContainer>,double>" />
+<class name="std::vector<std::pair<ElementLink<ExampleHitContainer>,double> >" />
+</lcgdict>

@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterDictDictGen"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterDictDictGen.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterDict.dsomap.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthenaPoolExampleConverter"
+		],
+		"name" : "AthenaPoolExampleConverterDictDictGen"
+	}
+}

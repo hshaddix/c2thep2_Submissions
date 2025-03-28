@@ -1,0 +1,4 @@
+# Package(s) built in WorkDir - 25.0.28
+Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms
+Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter
+Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData

@@ -1,0 +1,15 @@
+<!-- Copyright (C) 2002-2017 CERN for the benefit of the ATLAS collaboration -->
+<!-- Create the ElementLinkVector<ExampleHitContainer> dictionaries: -->
+<class name="ElementLinkVector<ExampleHitContainer>" />
+<exclusion>
+  <class name="ElementLinkVector<ExampleHitContainer>" >
+    <!-- The signatures for these are too big for the dictionary generator: -->
+    <method name="insert" />
+    <method name="erase" />
+  </class>
+</exclusion>
+<class name="std::vector<SG::ELVRef<ExampleHitContainer> >" />
+<class name="SG::ELVRef<ExampleHitContainer>" >
+  <field name="m_link" transient="true" />
+</class>
+<class name="std::vector<DataLink<ExampleHitContainer> >" />

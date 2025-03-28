@@ -1,0 +1,9 @@
+# Target labels
+ AthenaPoolExampleData
+# Source files and their labels
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/AthenaPoolExampleDataDictDictGen
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/AthenaPoolExampleDataDictDictGen.rule
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/AthenaPoolExampleDataDict.dsomap.rule
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/AthenaPoolExampleDataDict.h.rule
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/selection.xml.rule
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/AthenaPoolExampleDataDict.stamp.txt.rule

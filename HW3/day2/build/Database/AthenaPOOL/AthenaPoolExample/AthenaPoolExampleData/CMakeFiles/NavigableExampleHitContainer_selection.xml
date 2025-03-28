@@ -1,0 +1,5 @@
+<!-- Copyright (C) 2002-2017 CERN for the benefit of the ATLAS collaboration -->
+<!-- Create the Navigable<ExampleHitContainer> dictionaries: -->
+<class name="Navigable<ExampleHitContainer,double,std::vector<std::pair<ElementLink<ExampleHitContainer>,double> > >" />
+<class name="std::pair<ElementLink<ExampleHitContainer>,double>" />
+<class name="std::vector<std::pair<ElementLink<ExampleHitContainer>,double> >" />

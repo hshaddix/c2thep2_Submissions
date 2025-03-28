@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/src/ExampleHitContainerCnv.cxx"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/src/ExampleTrackContainerCnv.cxx"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterPoolCnv_entries.cxx"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterPoolCnv_entries.cxx.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterPoolCnv.stamp.txt.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterPoolCnv_ExampleElectronAuxContainer_entries.cxx.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterPoolCnv_ExampleElectronContainer_entries.cxx.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterPoolCnv_ExampleElectron_entries.cxx.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterPoolCnv_ExampleHitContainer_entries.cxx.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterPoolCnv_ExampleTrackContainer_entries.cxx.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthenaPoolExampleConverter"
+		],
+		"name" : "AthenaPoolExampleConverterPoolCnv"
+	}
+}

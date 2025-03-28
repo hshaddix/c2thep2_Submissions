@@ -1,0 +1,6 @@
+# Target labels
+ AthenaPoolExampleConverter
+# Source files and their labels
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterDictDictGen
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterDictDictGen.rule
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterDict.dsomap.rule

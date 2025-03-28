@@ -1,0 +1,19 @@
+{ decls }
+namespace std {  }
+
+[ libAthenaPoolExampleConverterDict.so ]
+# List of selected classes
+class ExampleHitContainer_p1
+class ExampleHitStreamer_p0
+class ExampleHit_p0
+class ExampleHit_p1
+class ExampleTrackContainer_p1
+class ExampleTrack_p1
+class vector<ExampleHit_p1>
+class vector<ExampleTrack_p1>
+header AthenaPoolExampleConverter/ExampleHitContainer_p1.h
+header AthenaPoolExampleConverter/ExampleHitStreamer_p0.h
+header AthenaPoolExampleConverter/ExampleHit_p0.h
+header AthenaPoolExampleConverter/ExampleHit_p1.h
+header AthenaPoolExampleConverter/ExampleTrackContainer_p1.h
+header AthenaPoolExampleConverter/ExampleTrack_p1.h

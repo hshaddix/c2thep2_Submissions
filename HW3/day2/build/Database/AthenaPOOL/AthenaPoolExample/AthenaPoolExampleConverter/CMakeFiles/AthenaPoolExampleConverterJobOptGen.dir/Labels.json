@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/jobOptions/AthenaPoolExampleConverter/AthenaPoolExampleConverterItemList_joboptions.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/jobOptions/AthenaPoolExampleConverter/AthenaPoolExampleConverter_joboptions.py"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/jobOptions/AthenaPoolExampleConverter/AthenaPoolExampleConverterItemList_joboptions.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/jobOptions/AthenaPoolExampleConverter/AthenaPoolExampleConverter_joboptions.py.rule"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleConverter/CMakeFiles/AthenaPoolExampleConverterPoolCnv.stamp.txt.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthenaPoolExampleConverter"
+		],
+		"name" : "AthenaPoolExampleConverterJobOptGen"
+	}
+}

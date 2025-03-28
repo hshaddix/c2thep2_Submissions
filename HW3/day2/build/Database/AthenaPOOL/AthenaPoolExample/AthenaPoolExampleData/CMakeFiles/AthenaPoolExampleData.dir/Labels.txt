@@ -1,0 +1,6 @@
+# Target labels
+ AthenaPoolExampleData
+# Source files and their labels
+/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/src/ExampleData.cxx
+/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/src/ExampleElectronAuxContainer_v1.cxx
+/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/src/ExampleElectron_v1.cxx

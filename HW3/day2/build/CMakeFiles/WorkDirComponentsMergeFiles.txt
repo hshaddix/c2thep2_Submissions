@@ -1,0 +1,2 @@
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/lib/libAthenaPoolExampleAlgorithms.components
+/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/lib/libAthenaPoolExampleConverterPoolCnv.components

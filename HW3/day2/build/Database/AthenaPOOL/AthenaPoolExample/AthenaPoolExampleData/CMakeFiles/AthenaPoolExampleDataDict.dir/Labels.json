@@ -1,0 +1,29 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/build/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/CMakeFiles/AthenaPoolExampleDataDictReflexDict.cxx",
+			"labels" : 
+			[
+				"AthenaPoolExampleData"
+			]
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/src/dict/ContainerProxies.cxx"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/AthenaPoolExampleData/AthenaPoolExampleDataDict.h"
+		},
+		{
+			"file" : "/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleData/AthenaPoolExampleData/selection.xml"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"AthenaPoolExampleData"
+		],
+		"name" : "AthenaPoolExampleDataDict"
+	}
+}
