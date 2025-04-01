@@ -12,7 +12,7 @@ Next, in the directory **Question3_VaryingBaskets** I have .txt files of compres
 
 1) integer filled branches
 2) float filled branches and
-3) 1/2 compressible, half incompressible
+3) 1/2 compressible, 1/2 incompressible
 
 The corresponding plots showing the compression rate fall-off for the variables in these are in the directory 
 
