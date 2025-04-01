@@ -1,6 +1,7 @@
 #include <vector>
 #include <iostream>
 #include <cmath>
+#include <fstream> 
 
 #include "TFile.h"
 #include "TTree.h"
@@ -45,7 +46,8 @@ for (int i = 0; i < N; ++i)
 
    int n = rand.Integer(vecsize) + 1;
    vpx.clear(); vpy.clear(); vpz.clear(); vpt.clear(); vint.clear();
-
+/*
+// Replaced loop for 1/2 easy to compress, half hard to compress // 
    for (int j = 0; j < n; ++j)
    {
       float px, py, pt, pz;
@@ -71,6 +73,21 @@ for (int i = 0; i < N; ++i)
       vpt.push_back(pt);
       vint.push_back(val);
    }
+*/
+   for (Int_t j = 0; j < n; ++j)
+{
+    Float_t px, py, pt;
+    gRandom->Rannor(px, py); // hard to compress
+    pt = sqrt(px * px + py * py);
+
+    vpx.push_back(px);
+    vpy.push_back(py);
+
+    vpz.push_back(3.1415); // easily compressible constant
+    vpt.push_back(pt);
+
+    vint.push_back(j % 5); // repeating small ints
+}
 
    t->Fill();
 
@@ -96,6 +113,25 @@ for (int i = 0; i < N; ++i)
    std::cerr << std::endl;
    t->Print();  // Print tree summary for compression analysis
    f->Write();
+   // Added to get size and compression factor 
+   f->GetSize();
+   
+   Long64_t fileSize = f->GetSize();
+   auto compressionFactor = [](TBranch* b) -> double {
+    return b->GetZipBytes() > 0 ? (double)b->GetTotBytes() / (double)b->GetZipBytes() : 1.0;
+};
+
+   std::ofstream log("compression_log.txt", std::ios::app);
+   log << "BasketSizeKB=" << basketSizeKB
+       << ", FileSize=" << fileSize
+       << ", vpx=" << compressionFactor(bvpx)
+       << ", vpy=" << compressionFactor(bvpy)
+       << ", vpz=" << compressionFactor(bvpz)
+       << ", vpt=" << compressionFactor(bvpt)
+       << ", vint=" << compressionFactor(bvint)
+       << "\n";
+   log.close();
+
    delete f;
 }
 

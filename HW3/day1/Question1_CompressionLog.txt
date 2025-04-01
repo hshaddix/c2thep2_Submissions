@@ -1,0 +1,9 @@
+BasketSizeKB=4, FileSize=626308081, vpx=1.08735, vpy=1.08736, vpz=15.6708, vpt=1.12929, vint=13.4939
+BasketSizeKB=8, FileSize=616029612, vpx=1.09285, vpy=1.09284, vpz=17.8819, vpt=1.13512, vint=15.0815
+BasketSizeKB=16, FileSize=610603452, vpx=1.09525, vpy=1.09527, vpz=19.6857, vpt=1.13726, vint=16.4105
+BasketSizeKB=32, FileSize=607899366, vpx=1.09574, vpy=1.09572, vpz=21.1635, vpt=1.13762, vint=17.5206
+BasketSizeKB=64, FileSize=606074596, vpx=1.09615, vpy=1.09614, vpz=22.251, vpt=1.13802, vint=18.2921
+BasketSizeKB=128, FileSize=605059630, vpx=1.09674, vpy=1.09673, vpz=22.7902, vpt=1.13809, vint=18.6555
+BasketSizeKB=256, FileSize=604644934, vpx=1.09679, vpy=1.09678, vpz=23.0347, vpt=1.13841, vint=18.8212
+BasketSizeKB=512, FileSize=604311218, vpx=1.09698, vpy=1.09697, vpz=23.1076, vpt=1.13912, vint=18.9005
+BasketSizeKB=1024, FileSize=603823709, vpx=1.09717, vpy=1.09717, vpz=23.7088, vpt=1.13906, vint=19.1519
