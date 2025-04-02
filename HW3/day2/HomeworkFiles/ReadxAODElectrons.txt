@@ -1,0 +1,261 @@
+Py:AutoConfigFlags    INFO Obtaining metadata of auto-configuration by peeking into 'SimplePoolFile_xAOD.root'
+Py:MetaReader        INFO Current mode used: lite
+Py:MetaReader        INFO Current filenames: ['SimplePoolFile_xAOD.root']
+Py:MetaReader        INFO MetaReader is called with the parameter "unique_tag_info_values" set to True. This is a workaround to remove all duplicate values from "/TagInfo" key
+ApplicationMgr    SUCCESS 
+====================================================================================================================================
+                                                   Welcome to ApplicationMgr (GaudiCoreSvc v39r4)
+                                          running on login01.af.uchicago.edu on Wed Apr  2 13:42:33 2025
+====================================================================================================================================
+ApplicationMgr       INFO Application Manager Configured successfully
+Py:ComponentAccumulator    INFO Athena job with pid 1193546
+CoreDumpSvc                                          INFO Handling signals: 11(Segmentation fault) 7(Bus error) 4(Illegal instruction) 14(Alarm clock) 
+AthenaEventLoopMgr                                   INFO Initializing AthenaEventLoopMgr
+ReadExampleElectron                                  INFO ReadExampleElectron: in initialize()
+ClassIDSvc                                           INFO getRegistryEntries: read 4797 CLIDRegistry entries for module ALL
+MetaDataSvc                                          INFO Initializing MetaDataSvc
+PoolSvc                                             DEBUG Service base class initialized successfully
+PoolSvc                                              INFO io_register[PoolSvc](xmlcatalog_file:PoolFileCatalog.xml) [ok]
+PoolSvc                                              INFO Set connectionsvc retry/timeout/IDLE timeout to  'ConnectionRetrialPeriod':300/ 'ConnectionRetrialTimeOut':3600/ 'ConnectionTimeOut':5 seconds with connection cleanup disabled
+PoolSvc                                              INFO Frontier compression level set to 5
+DBReplicaSvc                                         INFO Frontier server at (serverurl=http://atlasfrontier-ai.cern.ch:8000/atlr)(serverurl=http://atlasfrontier1-ai.cern.ch:8000/atlr)(serverurl=http://atlasfrontier2-ai.cern.ch:8000/atlr)(proxyurl=http://v4a.mwt2.org:6082)(proxyurl=http://iut2-slate.mwt2.org:32200)(proxyurl=http://uct2-squid.mwt2.org:3128)(proxyurl=http://v4f.hl-lhc.net:6082)(proxyurl=http://atlasbpfrontier.cern.ch:3127)(proxyurl=http://atlasbpfrontier.fnal.gov:3127) will be considered for COOL data
+DBReplicaSvc                                         INFO Read replica configuration from /cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-04-01T2101/Athena/25.0.28/InstallArea/x86_64-el9-gcc13-opt/share/dbreplica.config
+DBReplicaSvc                                         INFO Total of 1 servers found for host login01.af.uchicago.edu [ATLF ]
+PoolSvc                                              INFO Successfully setup replica sorting algorithm
+PoolSvc                                             DEBUG OutputLevel is 2
+PoolSvc                                              INFO Setting up APR FileCatalog and Streams
+PoolSvc                                             DEBUG POOL ReadCatalog is file:Catalog1.xml
+PoolSvc                                              INFO POOL WriteCatalog is xmlcatalog_file:PoolFileCatalog.xml
+DbSession                                            INFO     Open     DbSession    
+Domain[ROOT_All]                                     INFO >   Access   DbDomain     READ      [ROOT_All] 
+DbSession                                            INFO     Open     DbSession    
+Domain[ROOT_All]                                     INFO >   Access   DbDomain     READ      [ROOT_All] 
+AthenaPoolCnvSvc                                    DEBUG Setting StorageType to ROOTTREEINDEX
+MetaDataSvc                                          INFO Found MetaDataTools = PublicToolHandleArray(['xAODMaker::FileMetaDataTool/xAODMaker::FileMetaDataTool'])
+EventSelector                                       DEBUG Initializing EventSelector
+EventSelector                                       DEBUG Service base class initialized successfully
+EventSelector                                       DEBUG reinitialization...
+EventSelector                                       DEBUG Try item: "SimplePoolFile_xAOD.root" from the collection list.
+PoolSvc                                             DEBUG createCollection() type=RootCollection, connection=PFN:SimplePoolFile_xAOD.root, name=SimplePoolFile_xAOD.root, contextID=0
+PoolSvc                                             DEBUG createCollection() type=ImplicitCollection, connection=PFN:SimplePoolFile_xAOD.root, name=POOLContainer(DataHeader), contextID=0
+PersistencySvc::UserDB::fid()                       DEBUG lookupPFN: SimplePoolFile_xAOD.root returned FID: '71567452-14EF-C049-8340-01A6F8495EC0' tech=ROOT_All
+Domain[ROOT_All]                                     INFO ->  Access   DbDatabase   READ      [ROOT_All] 71567452-14EF-C049-8340-01A6F8495EC0
+Domain[ROOT_All]                                     INFO                           SimplePoolFile_xAOD.root
+RootDatabase.open                                    INFO SimplePoolFile_xAOD.root File version:63404
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Shapes
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Shapes
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Shapes
+##Shapes                                            DEBUG Opening
+##Shapes                                            DEBUG    attributes# = 1
+##Shapes                                            DEBUG Opened container ##Shapes of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[0 , 0D6FFB22-1BCB-49B9-BBFB-66B6DF352067]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::EventAuxInfo_v3 Typ:xAOD::EventAuxInfo_v3 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[1 , A57CD90B-B697-4067-93C7-28252B1FF9D5]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::ExampleElectronAuxContainer_v1 Typ:xAOD::ExampleElectronAuxContainer_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[2 , FF777FDA-721C-4756-BBF3-4CE28C2A3AF5]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:ExampleTrackContainer_p1 Typ:ExampleTrackContainer_p1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[3 , AE8BED6D-1D41-4CAF-994B-42613FC91A0A]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::EventInfo_v1 Typ:xAOD::EventInfo_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[4 , 4508E3FC-03A7-4770-BF41-71431F86050C]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:DataVector<xAOD::ExampleElectron_v1> Typ:DataVector<xAOD::ExampleElectron_v1> [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[5 , 4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:DataHeader_p6 Typ:DataHeader_p6 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[6 , 7BE56CEF-C866-4BEE-9348-A5F34B5F1DAD]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:DataHeaderForm_p6 Typ:DataHeaderForm_p6 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[7 , BEE2BECF-A936-4078-9FDD-AD703C9ADF9F]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::FileMetaDataAuxInfo_v1 Typ:xAOD::FileMetaDataAuxInfo_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[8 , 11DF1B8C-0DEE-4687-80D7-E74B520ACBB4]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:EventStreamInfo_p3 Typ:EventStreamInfo_p3 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[9 , C87E3828-4A7A-480A-95DE-0339539F6A0F]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::FileMetaData_v1 Typ:xAOD::FileMetaData_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[10 , 6C2DE6DF-6D52-43F6-B435-9F29812F40C0]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:IOVMetaDataContainer_p1 Typ:IOVMetaDataContainer_p1 [21] Size:0 Offset:0 #Elements:1
+##Shapes                                            DEBUG No objects passing selection criteria... Container has 11 Entries in total.
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Links
+##Links                                             DEBUG Opening
+##Links                                             DEBUG    attributes# = 1
+##Links                                             DEBUG Opened container ##Links of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/##Params [200]  (3b4b2e00000002 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:DA8F479C-09BC-49D4-94BC-99D025A23A3B
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/CollectionTree(EventInfoAux.) [203]  (3b4b2e00000003 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:0D6FFB22-1BCB-49B9-BBFB-66B6DF352067
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/CollectionTree(TestContainerAux.) [203]  (3b4b2e00000004 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:A57CD90B-B697-4067-93C7-28252B1FF9D5
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/CollectionTree(MyTracks) [203]  (3b4b2e00000005 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:FF777FDA-721C-4756-BBF3-4CE28C2A3AF5
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/CollectionTree(EventInfo) [203]  (3b4b2e00000006 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:AE8BED6D-1D41-4CAF-994B-42613FC91A0A
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/CollectionTree(TestContainer) [203]  (3b4b2e00000007 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:4508E3FC-03A7-4770-BF41-71431F86050C
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/POOLContainer(DataHeader) [203]  (3b4b2e00000008 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/POOLContainerForm(DataHeaderForm) [203]  (3b4b2e00000009 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:7BE56CEF-C866-4BEE-9348-A5F34B5F1DAD
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/MetaData(FileMetaDataAux.) [202]  (3b4b2e0000000a , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:BEE2BECF-A936-4078-9FDD-AD703C9ADF9F
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/MetaData(StreamWritexAODElectrons) [202]  (3b4b2e0000000b , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:11DF1B8C-0DEE-4687-80D7-E74B520ACBB4
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/MetaData(FileMetaData) [202]  (3b4b2e0000000c , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:C87E3828-4A7A-480A-95DE-0339539F6A0F
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/MetaData(/TagInfo) [202]  (3b4b2e0000000d , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:6C2DE6DF-6D52-43F6-B435-9F29812F40C0
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/MetaDataHdr(DataHeader) [202]  (3b4b2e0000000e , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/MetaDataHdrForm(DataHeaderForm) [202]  (3b4b2e0000000f , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:7BE56CEF-C866-4BEE-9348-A5F34B5F1DAD
+##Links                                             DEBUG No objects passing selection criteria... Container has 14 Entries in total.
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Params
+##Params                                            DEBUG Opening
+##Params                                            DEBUG    attributes# = 1
+##Params                                            DEBUG Opened container ##Params of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:FID=[71567452-14EF-C049-8340-01A6F8495EC0]
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:PFN=[SimplePoolFile_xAOD.root]
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:POOL_VSN=[1.1]
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:FORMAT_VSN=[2.0]
+##Params                                            DEBUG No objects passing selection criteria... Container has 4 Entries in total.
+RootDatabase.onOpen                                 DEBUG 71567452-14EF-C049-8340-01A6F8495EC0 File version:63404
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_TreeIndex] POOLContainer(DataHeader)
+POOLContainer(DataHeader)                           DEBUG Opening
+POOLContainer(DataHeader)                           DEBUG    attributes# = 1
+POOLContainer(DataHeader)                           DEBUG Branch container 'DataHeader'
+POOLContainer(DataHeader)                           DEBUG Opened container POOLContainer(DataHeader) of type ROOT_Tree
+MetaDataSvc                                         DEBUG handle() FirstInputFile for FID:71567452-14EF-C049-8340-01A6F8495EC0
+MetaDataSvc                                         DEBUG initInputMetaDataStore: file name FID:71567452-14EF-C049-8340-01A6F8495EC0
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_Tree] MetaDataHdr(DataHeader)
+MetaDataHdr(DataHeader)                             DEBUG Opening
+MetaDataHdr(DataHeader)                             DEBUG    attributes# = 1
+MetaDataHdr(DataHeader)                             DEBUG Branch container 'DataHeader'
+MetaDataHdr(DataHeader)                             DEBUG Opened container MetaDataHdr(DataHeader) of type ROOT_Tree
+EventPersistencySvc                                  INFO Added successfully Conversion service AthenaPoolCnvSvc
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_Tree] MetaDataHdrForm(DataHeaderForm)
+MetaDataHdrForm(DataHeaderForm)                     DEBUG Opening
+MetaDataHdrForm(DataHeaderForm)                     DEBUG    attributes# = 1
+MetaDataHdrForm(DataHeaderForm)                     DEBUG Branch container 'DataHeaderForm'
+MetaDataHdrForm(DataHeaderForm)                     DEBUG Opened container MetaDataHdrForm(DataHeaderForm) of type ROOT_Tree
+MetaDataSvc                                         DEBUG Loaded input meta data store proxies
+MetaDataSvc                                         DEBUG Registering all Tools in ToolHandleArray MetaDataTools
+MetaDataSvc                                         DEBUG Adding public ToolHandle tool ToolSvc.xAODMaker::FileMetaDataTool (xAODMaker::FileMetaDataTool)
+MetaDataSvc                                          INFO   AlgTool: ToolSvc.xAODMaker::FileMetaDataTool
+ReadExampleElectron                                 DEBUG input handles: 4
+ReadExampleElectron                                 DEBUG output handles: 0
+ClassIDSvc                                           INFO getRegistryEntries: read 1690 CLIDRegistry entries for module ALL
+ReadExampleElectron                                 DEBUG data dependencies:
+  + INPUT   ( 'xAOD::ExampleElectronContainer' , 'StoreGateSvc+TestContainer' ) 
+  + INPUT   ( 'xAOD::ExampleElectronContainer' , 'StoreGateSvc+TestContainer.decor1' ) 
+  + INPUT   ( 'xAOD::ExampleElectronContainer' , 'StoreGateSvc+TestContainer.decor_Hayden' ) 
+  + INPUT   ( 'xAOD::ExampleElectronContainer' , 'StoreGateSvc+TestContainer.decor_float' ) 
+AthenaEventLoopMgr                                   INFO Setup EventSelector service EventSelector
+ApplicationMgr                                       INFO Application Manager Initialized successfully
+StorageSvc                                          DEBUG Disconnect request for database: FID=71567452-14EF-C049-8340-01A6F8495EC0 PFN=SimplePoolFile_xAOD.root
+StorageSvc                                          DEBUG Closing database: FID=71567452-14EF-C049-8340-01A6F8495EC0
+SimplePoolFile_xAOD.root                             INFO Database being retired...
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Links
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Shapes
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Params
+RootDatabase.close                                  DEBUG Closing DB SimplePoolFile_xAOD.root
+RootDatabase.close                                  DEBUG I/O READ  Bytes: 5506
+RootDatabase.close                                  DEBUG I/O WRITE Bytes: 0
+RootDatabase.close                                  DEBUG I/O OTHER Bytes: 0
+Domain[ROOT_All]                                     INFO ->  Deaccess DbDatabase   READ      [ROOT_All] 71567452-14EF-C049-8340-01A6F8495EC0
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_Tree] MetaDataHdr(DataHeader)
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_Tree] MetaDataHdrForm(DataHeaderForm)
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_TreeIndex] POOLContainer(DataHeader)
+Domain[ROOT_All]                                     INFO >   Deaccess DbDomain     READ      [ROOT_All] 
+EventSelector                                       DEBUG Try item: "SimplePoolFile_xAOD.root" from the collection list.
+PoolSvc                                             DEBUG createCollection() type=RootCollection, connection=PFN:SimplePoolFile_xAOD.root, name=SimplePoolFile_xAOD.root, contextID=0
+PoolSvc                                             DEBUG createCollection() type=ImplicitCollection, connection=PFN:SimplePoolFile_xAOD.root, name=POOLContainer(DataHeader), contextID=0
+PersistencySvc::UserDB::fid()                       DEBUG lookupPFN: SimplePoolFile_xAOD.root returned FID: '71567452-14EF-C049-8340-01A6F8495EC0' tech=ROOT_All
+DbSession                                            INFO     Open     DbSession    
+Domain[ROOT_All]                                     INFO >   Access   DbDomain     READ      [ROOT_All] 
+Domain[ROOT_All]                                     INFO ->  Access   DbDatabase   READ      [ROOT_All] 71567452-14EF-C049-8340-01A6F8495EC0
+Domain[ROOT_All]                                     INFO                           SimplePoolFile_xAOD.root
+RootDatabase.open                                    INFO SimplePoolFile_xAOD.root File version:63404
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Shapes
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Shapes
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Shapes
+##Shapes                                            DEBUG Opening
+##Shapes                                            DEBUG    attributes# = 1
+##Shapes                                            DEBUG Opened container ##Shapes of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[0 , 0D6FFB22-1BCB-49B9-BBFB-66B6DF352067]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::EventAuxInfo_v3 Typ:xAOD::EventAuxInfo_v3 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[1 , A57CD90B-B697-4067-93C7-28252B1FF9D5]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::ExampleElectronAuxContainer_v1 Typ:xAOD::ExampleElectronAuxContainer_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[2 , FF777FDA-721C-4756-BBF3-4CE28C2A3AF5]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:ExampleTrackContainer_p1 Typ:ExampleTrackContainer_p1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[3 , AE8BED6D-1D41-4CAF-994B-42613FC91A0A]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::EventInfo_v1 Typ:xAOD::EventInfo_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[4 , 4508E3FC-03A7-4770-BF41-71431F86050C]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:DataVector<xAOD::ExampleElectron_v1> Typ:DataVector<xAOD::ExampleElectron_v1> [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[5 , 4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:DataHeader_p6 Typ:DataHeader_p6 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[6 , 7BE56CEF-C866-4BEE-9348-A5F34B5F1DAD]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:DataHeaderForm_p6 Typ:DataHeaderForm_p6 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[7 , BEE2BECF-A936-4078-9FDD-AD703C9ADF9F]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::FileMetaDataAuxInfo_v1 Typ:xAOD::FileMetaDataAuxInfo_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[8 , 11DF1B8C-0DEE-4687-80D7-E74B520ACBB4]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:EventStreamInfo_p3 Typ:EventStreamInfo_p3 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[9 , C87E3828-4A7A-480A-95DE-0339539F6A0F]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::FileMetaData_v1 Typ:xAOD::FileMetaData_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[10 , 6C2DE6DF-6D52-43F6-B435-9F29812F40C0]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:IOVMetaDataContainer_p1 Typ:IOVMetaDataContainer_p1 [21] Size:0 Offset:0 #Elements:1
+##Shapes                                            DEBUG No objects passing selection criteria... Container has 11 Entries in total.
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Links
+##Links                                             DEBUG Opening
+##Links                                             DEBUG    attributes# = 1
+##Links                                             DEBUG Opened container ##Links of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/##Params [200]  (3b4b2e00000002 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:DA8F479C-09BC-49D4-94BC-99D025A23A3B
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/CollectionTree(EventInfoAux.) [203]  (3b4b2e00000003 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:0D6FFB22-1BCB-49B9-BBFB-66B6DF352067
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/CollectionTree(TestContainerAux.) [203]  (3b4b2e00000004 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:A57CD90B-B697-4067-93C7-28252B1FF9D5
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/CollectionTree(MyTracks) [203]  (3b4b2e00000005 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:FF777FDA-721C-4756-BBF3-4CE28C2A3AF5
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/CollectionTree(EventInfo) [203]  (3b4b2e00000006 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:AE8BED6D-1D41-4CAF-994B-42613FC91A0A
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/CollectionTree(TestContainer) [203]  (3b4b2e00000007 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:4508E3FC-03A7-4770-BF41-71431F86050C
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/POOLContainer(DataHeader) [203]  (3b4b2e00000008 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/POOLContainerForm(DataHeaderForm) [203]  (3b4b2e00000009 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:7BE56CEF-C866-4BEE-9348-A5F34B5F1DAD
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/MetaData(FileMetaDataAux.) [202]  (3b4b2e0000000a , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:BEE2BECF-A936-4078-9FDD-AD703C9ADF9F
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/MetaData(StreamWritexAODElectrons) [202]  (3b4b2e0000000b , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:11DF1B8C-0DEE-4687-80D7-E74B520ACBB4
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/MetaData(FileMetaData) [202]  (3b4b2e0000000c , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:C87E3828-4A7A-480A-95DE-0339539F6A0F
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/MetaData(/TagInfo) [202]  (3b4b2e0000000d , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:6C2DE6DF-6D52-43F6-B435-9F29812F40C0
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/MetaDataHdr(DataHeader) [202]  (3b4b2e0000000e , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:71567452-14EF-C049-8340-01A6F8495EC0/MetaDataHdrForm(DataHeaderForm) [202]  (3b4b2e0000000f , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:7BE56CEF-C866-4BEE-9348-A5F34B5F1DAD
+##Links                                             DEBUG No objects passing selection criteria... Container has 14 Entries in total.
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Params
+##Params                                            DEBUG Opening
+##Params                                            DEBUG    attributes# = 1
+##Params                                            DEBUG Opened container ##Params of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:FID=[71567452-14EF-C049-8340-01A6F8495EC0]
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:PFN=[SimplePoolFile_xAOD.root]
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:POOL_VSN=[1.1]
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:FORMAT_VSN=[2.0]
+##Params                                            DEBUG No objects passing selection criteria... Container has 4 Entries in total.
+RootDatabase.onOpen                                 DEBUG 71567452-14EF-C049-8340-01A6F8495EC0 File version:63404
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_TreeIndex] POOLContainer(DataHeader)
+POOLContainer(DataHeader)                           DEBUG Opening
+POOLContainer(DataHeader)                           DEBUG    attributes# = 1
+POOLContainer(DataHeader)                           DEBUG Branch container 'DataHeader'
+POOLContainer(DataHeader)                           DEBUG Opened container POOLContainer(DataHeader) of type ROOT_Tree
+AthAlgSeq                                           FATAL in sysStart(): standard std::exception is caught
+AthAlgSeq                                           ERROR SG::ExcUninitKey: Error initializing VarHandle from uninitialized VarHandleKey: StoreGateSvc+TestContainer.decor_Hayden[1340937587]; keys should be initialized in your initialize(). Key held by ReadExampleElectron.
+AthAlgSeq                                           ERROR AthenaBaseComps/AthenaBaseComps/AthCommonDataStore.icc:59 (StatusCode AthCommonDataStore<PBASE>::sysStart() [with PBASE = AthCommonMsg<Gaudi::Sequence>]): code FAILURE: PBASE::sysStart()
+AthAllAlgSeq                                        ERROR Unable to start Algorithm AthSequencer/AthAlgSeq
+AthAllAlgSeq                                        ERROR AthenaBaseComps/AthenaBaseComps/AthCommonDataStore.icc:59 (StatusCode AthCommonDataStore<PBASE>::sysStart() [with PBASE = AthCommonMsg<Gaudi::Sequence>]): code FAILURE: PBASE::sysStart()
+AthAlgEvtSeq                                        ERROR Unable to start Algorithm AthSequencer/AthAllAlgSeq
+AthAlgEvtSeq                                        ERROR AthenaBaseComps/AthenaBaseComps/AthCommonDataStore.icc:59 (StatusCode AthCommonDataStore<PBASE>::sysStart() [with PBASE = AthCommonMsg<Gaudi::Sequence>]): code FAILURE: PBASE::sysStart()
+AthMasterSeq                                        ERROR Unable to start Algorithm AthSequencer/AthAlgEvtSeq
+AthMasterSeq                                        ERROR AthenaBaseComps/AthenaBaseComps/AthCommonDataStore.icc:59 (StatusCode AthCommonDataStore<PBASE>::sysStart() [with PBASE = AthCommonMsg<Gaudi::Sequence>]): code FAILURE: PBASE::sysStart()
+AthenaEventLoopMgr                                  ERROR Unable to start Algorithm: AthMasterSeq
+ServiceManager                                      ERROR Unable to start Service: AthenaEventLoopMgr
+Py:ComponentAccumulator   ERROR Failed to start AppMgr

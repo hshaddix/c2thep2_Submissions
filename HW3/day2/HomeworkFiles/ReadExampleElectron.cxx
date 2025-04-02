@@ -26,9 +26,11 @@ StatusCode ReadExampleElectron::initialize() {
 
   ATH_CHECK(m_exampleElectronContainerKey.initialize());
   ATH_CHECK(m_decor1Key.initialize());
-// ATH_CHECK(m_decor_floatKey.initialize());
-//  ATH_CHECK(m_decor_longdoubleKey.initialize());
-//  ATH_CHECK(m_decor_HaydenKey.initialize());
+
+// Code Added for HW/Testing   
+  // ATH_CHECK(m_decor_floatKey.initialize());
+  //  ATH_CHECK(m_decor_longdoubleKey.initialize());
+  //  ATH_CHECK(m_decor_HaydenKey.initialize());
 
   return StatusCode::SUCCESS;
 }
@@ -44,13 +46,13 @@ StatusCode ReadExampleElectron::execute(const EventContext& ctx) const {
   // Handle for the decoration
   SG::ReadDecorHandle<xAOD::ExampleElectronContainer, float> hdl1(m_decor1Key,
                                                                   ctx);
-
+// Lines Added for HW/Testing
   // Decorator for TestContainer.decor_float
  // SG::WriteDecorHandle<xAOD::ExampleElectronContainer, float> hdlFloat(m_decor_floatKey, ctx);
-
+ //
   // Decorator for TestContainer.decor_longdouble
  // SG::WriteDecorHandle<xAOD::ExampleElectronContainer, long double> hdlLongDouble(m_decor_longdoubleKey, ctx);
-
+ //
 // Decorator for TestContainer.decor_Hayden (type double)
 //  SG::WriteDecorHandle<xAOD::ExampleElectronContainer, double> hdlHayden(m_decor_HaydenKey, ctx);
 

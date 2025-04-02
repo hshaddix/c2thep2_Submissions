@@ -8,10 +8,7 @@
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadAgain.py
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadCond.py
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadMeta.py
-/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadWrite.py
-/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadWriteNext.py
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadxAODElectrons.py
-/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_Write.py
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_WriteCond.py
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_WriteMeta.py
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_WritexAODElectrons.py
@@ -23,10 +20,7 @@
 /home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_ReadAgain.py
 /home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_ReadCond.py
 /home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_ReadMeta.py
-/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_ReadWrite.py
-/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_ReadWriteNext.py
 /home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_ReadxAODElectrons.py
-/home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_Write.py
 /home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_WriteCond.py
 /home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_WriteMeta.py
 /home/shadhm/c2thep2_Submissions/HW3/day2/athena/Database/AthenaPOOL/AthenaPoolExample/AthenaPoolExampleAlgorithms/python/AthenaPoolExample_WritexAODElectrons.py
@@ -37,10 +31,7 @@
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadAgain.py.rule
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadCond.py.rule
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadMeta.py.rule
-/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadWrite.py.rule
-/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadWriteNext.py.rule
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_ReadxAODElectrons.py.rule
-/home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_Write.py.rule
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_WriteCond.py.rule
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_WriteMeta.py.rule
 /home/shadhm/c2thep2_Submissions/HW3/day2/build/x86_64-el9-gcc13-opt/python/AthenaPoolExampleAlgorithms/AthenaPoolExample_WritexAODElectrons.py.rule

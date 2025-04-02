@@ -3,7 +3,7 @@ release:25.0.28
 nightly name:main
 project name:WorkDir
 nightly release:c563d006f13
-date:2025-03-28T1502
+date:2025-04-02T1339
 compiler:GNU-13.1.0
 cuda:-
 cxxpath:/cvmfs/sft.cern.ch/lcg/releases/gcc/13.1.0-b3d18/x86_64-el9/bin/g++

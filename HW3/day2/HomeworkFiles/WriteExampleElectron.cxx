@@ -30,9 +30,11 @@ StatusCode WriteExampleElectron::initialize() {
   ATH_CHECK(m_exampleHitKey.initialize());
   ATH_CHECK(m_decor1Key.initialize());
   ATH_CHECK(m_decor2Key.initialize());
-  ATH_CHECK(m_decor_floatKey.initialize());
-  ATH_CHECK(m_decor_longdoubleKey.initialize());
-  ATH_CHECK(m_decor_HaydenKey.initialize()); 
+
+// Added Code for HW/Testing 
+  //ATH_CHECK(m_decor_floatKey.initialize());
+  //ATH_CHECK(m_decor_longdoubleKey.initialize());
+  //ATH_CHECK(m_decor_HaydenKey.initialize()); 
   return StatusCode::SUCCESS;
 }
 
@@ -84,15 +86,15 @@ StatusCode WriteExampleElectron::execute(const EventContext& ctx) const {
   // And for the second decoration 'TestContainer.decor2'
   SG::WriteDecorHandle<xAOD::ExampleElectronContainer, float> hdl2(m_decor2Key,
                                                                    ctx);
-
+// Added Code for HW/Testing 
   // Decorator for TestContainer.decor_float
-  SG::WriteDecorHandle<xAOD::ExampleElectronContainer, float> hdlFloat(m_decor_floatKey, ctx);
+  //SG::WriteDecorHandle<xAOD::ExampleElectronContainer, float> hdlFloat(m_decor_floatKey, ctx);
 
   // Decorator for TestContainer.decor_longdouble
-  SG::WriteDecorHandle<xAOD::ExampleElectronContainer, long double> hdlLongDouble(m_decor_longdoubleKey, ctx);
+  //SG::WriteDecorHandle<xAOD::ExampleElectronContainer, long double> hdlLongDouble(m_decor_longdoubleKey, ctx);
 
   // Decorator for TestContainer.decor_Hayden (type double)
-  SG::WriteDecorHandle<xAOD::ExampleElectronContainer, double> hdlHayden(m_decor_HaydenKey, ctx);
+  //SG::WriteDecorHandle<xAOD::ExampleElectronContainer, double> hdlHayden(m_decor_HaydenKey, ctx);
 
   if (objs.isValid()) {
     // Access example electrons
